@@ -20,3 +20,21 @@ Suppose you're a grocery clerk filling banana 🍌 orders. The customer may orde
 ```hs 
 minBananaBundle :: Int -> List -> List
 ```
+
+## Mathematics
+
+### Pair to Destination Pair with 2 Operations
+Let a, b, c, d be integers and (a, b) and (c, d) be two pairs of integers. We then define two operations, 
+- (a, b) -> (a + b, b)
+- (a, b) -> (a, a + b)
+
+Given two pairs of such integers, determine if it's possible for (a, b) to become (c, d) via these two operations.
+
+**Example:**
+- (a, b) = (2, 4)
+- (c, d) = (6, 10)
+- Expected: Yes, by performing (2, 4) -> (2 + 4, 4) = (6, 4) -> (6, 4 + 6) = (6, 10)
+
+**Function**
+```hs
+isReachable :: (Int, Int) (Int, Int) -> Bool

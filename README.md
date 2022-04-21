@@ -43,3 +43,6 @@ isReachable :: (Int, Int) (Int, Int) -> Bool
 ## Probability
 ### Painted Die
 Suppose you have a 3x3x3 cube, made of 27 tiny cubes. And suppose you painted the exteriors of the cube. Now, you break up the cube into it's 27 parts and take one die out and roll it. It turns out all five visible sides of the die are unpainted, what is the probability that the hiddne face is also unpainted?
+
+### First Primes
+What is the probability that four randomly chosen primes from the first 20 primes is odd?

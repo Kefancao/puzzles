@@ -21,6 +21,9 @@ Suppose you're a grocery clerk filling banana 🍌 orders. The customer may orde
 minBananaBundle :: Int -> List -> List
 ```
 
+### Prisoner's Problem
+Suppose there are 100 prisoners. Every prisoner is given either a black or white cap. Prisoners are then randomly selected to guess the colour of their cap. If they were to guess correctly, they're freed. Otherwise, they die. Before given the caps, prisoner's are allowed to communicate with each other to develope a strategy to maximize survival. The guess of the randomly selected prisoner is made known to all the prisoners and the result is also known to everyone (freedom or death). What is the optimal strategy for maximal survival? (Such strategy should free a minimum of 99 prisoners)
+
 ## Mathematics
 
 ### Pair to Destination Pair with 2 Operations
